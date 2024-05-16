@@ -1,0 +1,28 @@
+Descargar e instalar Laragon
+la ruta de instalacion es C:\laragon
+
+desde la interfaz de Laragon ejecutar los siguientes comandos desde la terminal:
+para crear proyecto : composer create-project laravel/laravel LaravelVuejs3
+para abrir proyecto iniciar Laragon y en el navegador : localhost/LaravelVuejs3/public
+
+Estructura de carpetas :
+
+app: Esta carpeta contiene la lógica principal de tu aplicación. Aquí es donde encontrarás los modelos, controladores, y otros archivos relacionados con la lógica de negocio de tu aplicación.
+
+bootstrap: Contiene los archivos que se utilizan para cargar Laravel y preparar la aplicación para su funcionamiento. Aquí es donde se carga el archivo autoload.php, que a su vez carga todas las dependencias necesarias para que Laravel funcione correctamente.
+
+config: Aquí se encuentran todos los archivos de configuración de tu aplicación. Puedes ajustar la configuración de la base de datos, el correo electrónico, el almacenamiento de archivos, y muchas otras opciones aquí.
+
+database: Contiene los archivos relacionados con la base de datos de tu aplicación. Aquí es donde puedes encontrar las migraciones de la base de datos, así como las semillas para poblar la base de datos con datos de prueba.
+
+public: Esta es la carpeta raíz de tu aplicación web. Aquí es donde se encuentran los archivos accesibles al público, como las hojas de estilo CSS, los scripts JavaScript y los archivos multimedia.
+
+resources: Esta carpeta contiene los recursos de tu aplicación que necesitan ser compilados, como los archivos de JavaScript y CSS sin procesar, así como las plantillas de Blade, que son las plantillas de vista de Laravel.
+
+routes: Aquí es donde se definen las rutas de tu aplicación. Las rutas dirigen las solicitudes HTTP a los controladores correspondientes, que luego manejan la lógica de la aplicación y devuelven las respuestas adecuadas.
+
+storage: Esta carpeta almacena archivos generados por tu aplicación, como archivos de caché, sesiones, archivos de registro y archivos cargados por los usuarios.
+
+tests: Aquí es donde puedes escribir pruebas automatizadas para tu aplicación. Las pruebas ayudan a garantizar que tu aplicación funcione como se espera y que los cambios que realices no introduzcan errores inesperados.
+
+vendor: Esta carpeta contiene todas las dependencias de Composer, incluyendo el código fuente de Laravel mismo y de cualquier paquete que hayas instalado a través de Composer.
